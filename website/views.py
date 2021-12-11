@@ -12,15 +12,15 @@ def home():
     return render_template("base.html")
 
 
-@views.route('/templates/support.html')
+@views.route('/join-us')
 
 
 def support():
     return render_template("support.html")
 
-@views.route('/templates/base.html')
+@views.route('/home')
 def home2():
     return render_template("base.html")
-@views.route('templates/about.html')
+@views.route('/about')
 def about():
     return render_template("about.html")
