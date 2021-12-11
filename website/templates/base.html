@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>{% block title %}www.medify.com/home{% endblock %}</title>
+    <link rel="stylesheet" href="/static/index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="/static/logo.jpg" alt="logo">
+
+        <ul>
+            <li class="list"><a href="#">HOME</a></li>
+            <!-- <li class="list"><a href="support.html">SUPPORT</a></li> -->
+            <li class="list"><a href="/templates/about.html">ABOUT US</a></li>
+            <li class="list"><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+
+        <h1 class="h-primary">WELCOME</h1>
+        <p>A platform to bring connect helpers and fellow citizen with their medical and basic needs </p>
+        <p>any extra details we want to add</p>
+        <br>
+        <p>If u wanna be the part of our comunity and serve the society as the volunteer</p>
+        <button class="btn" ><a href="/templates/support.html">JOIN US</a></button>
+        <p>CREATE YOUR ACCOUNT NOW</p>
+        <button class="btn"><a href="/templates/signup.html">SIGN-UP/REGISTER</a></button>
+        <p>login</p>
+        <button class="btn"><a href="/templates/signup.html">LOGIN</a></button>
+
+    </section>
+
+    <section id="services-container">
+
+        <h1 class="h-primary center">
+            OUR SERVICES
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="/static/1.jpeg" alt="">
+                <h2 class="h-secondary center">BLOOD AND PLASMA</h2>
+                <P class="center">...</P>
+            </div>
+
+            <div class="box">
+                <img src="/static/2.jpg" alt="">
+                <h2 class="h-secondary center">OXYGEN CYLENDERS</h2>
+                <P class="center">...</P>
+            </div>
+
+            <div class="box">
+                <img src="/static/3.jpg" alt="">
+                <h2 class="h-secondary center">COVID-19 VACCINE</h2>
+                <P class="center">
+                    <details id1="dropdown">
+                        <summary>click here</summary>
+                        <p>covishield, covacin, sputnic</p>
+                    </details>
+                </P>
+            </div>
+            <div class="box">
+                <img src="/static/4.jpeg" alt="">
+                <h2 class="h-secondary center">BED REQUIREMENTS</h2>
+                <P class="center">...</P>
+            </div>
+            <div class="box">
+                <img src="/static/4.jpeg" alt="">
+                <h2 class="h-secondary center">MEDICINES</h2>
+                <P>
+                    <details id="dropdown">
+                        <summary>click here</summary>
+                        <p>Antibiotics, Multivitamins, Anti allergic, IVERMECTIN</p>
+                    </details>
+                </P>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section id="contact">
+        <div id="contact-box">
+            <h1 class="h-primary center">
+                CONTACT US
+            </h1>
+            <div class="form-group">
+                <label for="name">NAME:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="name">EMAIL:</label>
+                <input type="email" name="name" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="name">PHONE NUMBER:</label>
+                <input type="phone" name="name" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="name">ADDRESS:</label>
+                <input type="address" name="name" id="address" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <label for="name">MESSAGE:</label>
+                <textarea name="message" id="message" cols="50" rows="10" placeholder="Enter your message here"></textarea>
+            </div>
+            <div>
+                <button>SUBMIT NOW</button>
+            </div>
+        </div>
+
+    </section> -->
+
+    <footer class="center">
+        copyright &COPY; www.medify.com. All rights reserved!
+    </footer>
+</body>
+
+</html>
